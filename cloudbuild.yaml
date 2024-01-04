@@ -20,6 +20,6 @@ steps:
       "--delivery-pipeline", "nestjs-app",
       "--region", "us-central1",
       "--annotations", "release-version=1",
-      "--source","./"
+      "--source","./",
       "--images", "nestjs-app=us-central1-docker.pkg.dev/river-clover-404404/nestjs-app/nestjs-app:$SHORT_SHA"
     ]
