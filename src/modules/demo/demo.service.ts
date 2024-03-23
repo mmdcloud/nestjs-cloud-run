@@ -9,6 +9,9 @@ export class DemoService {
   create(createDemoDto: CreateDemoDto) {
     return this.demoModel.create({ ...createDemoDto });
   }
+  getAll(){
+    return this.demoModel.findAll();
+  }
 
   // ... other CRUD operations
 }

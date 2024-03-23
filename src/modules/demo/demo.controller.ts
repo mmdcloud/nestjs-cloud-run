@@ -10,6 +10,11 @@ export class DemoController {
   async create(@Body() createDemoDto: CreateDemoDto) {
     return this.demoService.create(createDemoDto);
   }
+  
+  @Get()
+  async getAll() {
+    return this.demoService.getAll();
+  }
 
   // ... other endpoints
 }
