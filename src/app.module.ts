@@ -18,7 +18,7 @@ import { DemoItemModule } from './modules/demo-item/demo-item.module';
 
       dialect: 'mysql',
       host: '10.61.80.3',
-      port: '3306',
+      port: 3306,
       username: 'root',
       password: 'Mohitdixit12345!',
       database: 'demo',
